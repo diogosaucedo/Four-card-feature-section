@@ -1,0 +1,12 @@
+@use "../base/extends";
+
+.l-left {
+  @extend %u-display-flex, %u-justify-center;
+  
+  width: 32rem;
+
+  .c-card {
+    width: 30rem;
+    margin: 1.5rem;
+  }
+}

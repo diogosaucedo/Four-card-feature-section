@@ -1,0 +1,14 @@
+@use "../base/extends";
+
+.l-container {
+  @extend %u-display-flex,
+    %u-flex-direction-column,
+    %u-align-center,
+    %u-justify-center;
+
+  width: 96rem;
+  
+  .c-header {
+    width: 48rem;
+  }
+}

@@ -1,0 +1,25 @@
+@media only screen and (max-width: 480px) {
+  .l-container {
+    width: 90%;
+  }
+
+  .l-cards {
+    width: 100%;
+  }
+
+  .c-header {
+    max-width: 100%;
+    font-size: 1.6rem;
+    padding: 2rem;
+
+    &__text {
+      max-width: 100%;
+      font-size: 1.4rem;
+      word-wrap: break-word;
+    }
+  }
+  
+  .c-card {
+    max-width: 100%;
+  }
+}

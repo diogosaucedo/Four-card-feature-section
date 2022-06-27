@@ -1,0 +1,22 @@
+@use "../base/colors";
+@use "../base/extends";
+.l-cards {
+  @extend %u-display-flex, %u-justify-space-between, %u-align-center;
+  flex-wrap: wrap;
+
+  .c-card__cyan {
+    border-top: 0.3rem solid colors.$cyan;
+  }
+
+  .c-card__red {
+    border-top: 0.3rem solid colors.$red;
+  }
+
+  .c-card__orange {
+    border-top: 0.3rem solid colors.$orange;
+  }
+
+  .c-card__blue {
+    border-top: 0.3rem solid colors.$blue;
+  }
+}

@@ -1,0 +1,27 @@
+@use "../base/colors";
+@use "../base/extends";
+
+.c-card {
+  @extend %u-display-flex, %u-flex-direction-column, %u-justify-space-between;
+  
+  width: 100%;
+  padding: 2rem;
+  min-height: 19rem;
+  border-radius: 0.5rem;
+
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+  color: colors.$very-dark-blue;
+
+  &__title {
+    font-size: 1.6rem;
+  }
+
+  &__text {
+    font-size: 1.2rem;
+  }
+
+  &__image {
+    width: 5rem;
+    align-self: flex-end;
+  }
+}
